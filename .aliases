@@ -139,3 +139,7 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# amazon
+alias amazon="pushd ~/Code/bitbucket/tassadar && node scrape.js && popd"
+alias note="vim ~/foo.md && cat ~/foo.md"
