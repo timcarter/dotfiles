@@ -57,7 +57,11 @@ UnBundle 'bling/vim-bufferline'
 set nofoldenable
 set wrap
 
+" get rid of that weird buffer + "Hit ENTER to continue" each time vim opens
+let g:bufferline_echo=0
+
 "UnBundle 'surround'
 "UnBundle 'AutoClose'
 "UnBundle 'amirh/HTML-AutoCloseTag'
 "UnBundle 'spf13/vim-autoclose'
+
