@@ -143,3 +143,4 @@ alias reload="exec $SHELL -l"
 # amazon
 alias amazon="pushd ~/Code/bitbucket/tassadar && node scrape.js && popd"
 alias note="vim ~/foo.md && cat ~/foo.md"
+alias ide="cd ~/Thumbtack/website && vim ."
