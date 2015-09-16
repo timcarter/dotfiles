@@ -141,6 +141,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # amazon
-alias amazon="pushd ~/Code/bitbucket/tassadar && node scrape.js && popd"
-alias note="vim ~/foo.md && cat ~/foo.md"
+alias amazon="pushd ~/Code/bitbucket/tassadar && node scrape.js && cp results2.html ~/Dropbox/green/amazon.html && popd"
+alias note="vim ~/foo.md && pbcopy > ~/foo.md"
 alias ide="cd ~/Thumbtack/website && vim ."
