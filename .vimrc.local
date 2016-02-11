@@ -55,6 +55,7 @@ UnBundle 'spf13/vim-autoclose'
 UnBundle 'bling/vim-bufferline'
 
 set nofoldenable
+let g:DisableAutoPHPFolding = 1 " disable PIV's folding
 set wrap
 
 " get rid of that weird buffer + "Hit ENTER to continue" each time vim opens
