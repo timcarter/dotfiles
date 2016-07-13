@@ -53,6 +53,7 @@ UnBundle 'AutoClose'
 UnBundle 'amirh/HTML-AutoCloseTag'
 UnBundle 'spf13/vim-autoclose'
 UnBundle 'bling/vim-bufferline'
+UnBundle 'gorodinskiy/vim-coloresque'
 
 set nofoldenable
 let g:DisableAutoPHPFolding = 1 " disable PIV's folding
@@ -66,3 +67,4 @@ let g:bufferline_echo=0
 "UnBundle 'amirh/HTML-AutoCloseTag'
 "UnBundle 'spf13/vim-autoclose'
 
+set iskeyword-=.
